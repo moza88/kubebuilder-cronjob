@@ -83,7 +83,7 @@ const (
 
 	// ForbidCurrent ForbidConcurrent forbids concurrent runs, skipping next run if previous
 	// hasn't finished yet.
-	ForbidCurrent ConcurrencyPolicy = "Forbid"
+	ForbidConcurrent ConcurrencyPolicy = "Forbid"
 
 	// ReplaceConcurrent ReplacementConcurrent cancels currently running job and replaces it with a new one.
 	ReplaceConcurrent ConcurrencyPolicy = "Replace"
